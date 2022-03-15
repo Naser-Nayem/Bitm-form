@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Bitm Reg Form</title>
+        <link rel="icon" href="images/images.png">
+        <meta charset="utf-8">
+        <meta name="author" content="nayem">
+        <meta name="keywords" content="html,css,js,bootstrap,jquery">
+    </head>
+    <body>
+        <table align="center" width="80%">
+                <!--header image start-->
+                <tr>
+                   <td></td>
+                   <td></td>
+                   <td>
+                       <img src="images/basis_logo.png" width="100px">
+                   </td>
+                </tr>
+                <!--header image end-->
+                <!--logo image and heading tag start-->
+                <tr>
+                    <td colspan="3">
+                        <img src="images/logo.png">
+                        <h2>Registration for SEIP Project</h2><hr/>
+                    </td>
+                </tr>
+                <!--logo image and heading tag end-->
+                <!-- Preference start-->
+                <form>
+                <tr>
+                    <td colspan="3" width="100%">
+                        <p>Select Course:(In SEIP project one person will be eligible for one course only)</p>
+                        <label><b>First Preference:*</b></label>
+                        <select name="course">
+                            <option>Select a course</option>
+                            <option>Mobile Application Development</option>
+                            <option>Web Design</option>
+                            <option>Web Development with laravel</option>
+                            <option>2D and 3D animation</option>
+                            <option>Graphics Design</option>
+                            <option>Mobile andriod develoment</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--preference end-->
+                <!--name start-->
+                <tr>
+                    <td colspan="3" width="100%">
+                        <label>Name:*</label><br/>
+                        <input type="text" name="name" size="30">
+                    </td>
+                </tr>
+                <!--name end-->
+                <!--father,mother and gender start-->
+                <tr>
+                    <td width="33%">
+                        <label>Father name:*</label><br/>
+                        <input type="text" name="father_name">
+                    </td>
+                    <td width="33%">
+                        <label>Mother name:*</label><br/>
+                        <input type="text" name="mother_name">
+                    </td>
+                    <td width="33%">
+                        <label>Gender:*</label><br/>
+                        <select name="Select Gender">
+                            <option>Selecty a Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--father,mother and gender end-->
+                <!--National ID start-->
+                <tr>
+                    <td colspan="3" width="100%">
+                        <label>National ID:*</label><br/>
+                        <input type="number" name="number">
+                    </td>
+                </tr>
+                <!--National ID end-->
+                <!--date of birth start-->
+                <tr>
+                    <td width="33%">
+                        <label>Date of Birth:*</label><br/>
+                        <input type="date" name="date">
+                    </td>
+                    <td width="33%">
+                        <label>Religion:*</label><br/>
+                        <select name="select_religion">
+                            <option>Select Religion</option>
+                            <option>Muslim</option>
+                            <option>Hindu</option>
+                            <option>Christian</option>
+                            <option>Buddhist</option>
+                        </select>
+                    </td>
+                    <td width="33%">
+                        <label>Ethnic Group:*</label><br/>
+                        <select name="select_religion">
+                            <option>Select Ethnic Group</option>
+                            <option>American Community of Dhaka</option>
+                            <option>Bengali muslim</option>
+                            <option>Bengali hindu</option>
+                            <option>Bengali Christian</option>
+                            <option>Bengali</option>
+                            <option>Bengali Canadian</option>
+                            <option>Bengali Australian</option>
+                    </td>
+                </tr>
+                <!--date of birth end-->
+                <!--Mobile & email start-->
+                <tr>
+                    <td width="50%">
+                        <label>Mobile Num:*</label><br/>
+                        <input type="tel" name="mobile_num" size="50">
+                    </td>
+                    <td colspan="2" width="50%">
+                        <label>Email:*</label><br/>
+                        <input type="email" name="email" size="50">
+                    </td>
+                </tr>
+                <!--Mobile & email end-->
+                <!--Employment & Income start-->
+                <tr>
+                    <td width="20%">
+                        <label>Is Employed?</label>
+                        <input type="radio" name="employed">Yes
+                        <input type="radio" name="employed">No
+                    </td>
+                    <td width="80%" colspan="2">
+                        <label>Monthly Income:</label><br/>
+                        <input type="text" name="income" size="60">
+                    </td>
+                </tr>
+                <!--Employment & Income end-->
+                <!--Address start-->
+                <tr>
+                    <td colspan="3" width="100%">
+                        <h3>Present Address</h3><hr/>
+                        <label>Address:*</label><br/>
+                        <input type="text" name="address" size="120">
+                    </td>
+                </tr>
+                <!--Address end-->
+                <!--city and post-code start-->
+                <tr>
+                    <td width="50%">
+                        <label>City:*</label><br/>
+                        <input type="text" name="city" size="50">
+                    </td>
+                    <td width="50%" colspan="2">
+                        <label>Post Code:*</label><br/>
+                        <input type="number" name="post_code" size="30">
+                    </td>
+                </tr>
+                <!--city and post-code end-->
+                <!--division district and sub district start-->
+                <tr>
+                    <td width="33%">
+                        <level>Division</level><br/>
+                        <select name="division">
+                            <option>Select Division</option>
+                            <option>Dhaka</option>
+                            <option>Ctg</option>
+                            <option>Khulna</option>
+                            <option>Mymensingh</option>
+                        </select>
+                    </td>
+                    <td width="33%">
+                        <level>District</level><br/>
+                        <select name="district">
+                            <option>Select District</option>
+                            <option>Dhaka</option>
+                            <option>Gazipur</option>
+                            <option>Khulna</option>
+                            <option>Mymensingh</option>
+                        </select>
+                    </td>
+                    <td width="33%">
+                        <level>Sub-District</level><br/>
+                        <select name="sub-district">
+                            <option>Select District</option>
+                            <option>Sreepur</option>
+                            <option>Kapasia</option>
+                            <option>Kaliganj</option>
+                            <option>Joydebpur</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--division district and sub district end-->
+                <!--education & Institute start-->
+                <tr>
+                    <td colspan="3">
+                        <h3>Highest level of Education:</h3><hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=50%>
+                        <label>Level of Education:*</label><br/>
+                        <select name="Education">
+                            <option>Select Education Level</option>
+                            <option>Undergrade</option>
+                            <option>Postgrade</option>
+                            <option>Diploma</option>
+                            <option>HSC</option>
+                            <option>SSC</option>
+                        </select>
+                    </td>
+                    <td width="50%" colspan="2">
+                        <label>Level of Education:*</label><br/>
+                        <input type="text" name="education" size="50">
+                    </td>
+                </tr>
+                <!--education & Institute end-->
+                <!--subject and year start-->
+                <tr>
+                    <td width="50%">
+                        <label>Subject:</label><br/>
+                        <input type="text" name="subject" size="50">
+                    </td>
+                    <td width="50%" colspan="2">
+                        <label>Year</label><br/>
+                        <input type="number" name="year" size="50">
+                    </td>
+                </tr>
+                <!--subject and year end-->
+                <!--Photo start-->
+                <tr>
+                    <td colspan="3">
+                        <h3>Photo</h3><hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" width="100%">
+                    <input type="file" name="image" accept="image/jpeg">
+                    <p>Image size should be 300x300 (Max 100KB) in JPG Format</p>
+                    </td>
+                </tr>
+                <!--photo end-->
+                <!--security start-->
+                <tr>
+                    <td colspan="3">
+                        <h3>Security</h3><hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        <lebel>Type This Code:*</lebel><br/>
+                        <input type="number">
+                    </td>
+                    <td colspan="2" width="50%">
+                        <img src="images/code.jpg"><br/><br/>
+                        <input type="submit" value="reset">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+                <!--security end-->
+                <!--Footer part start-->
+                <tr>
+                    <td width="33%">
+                        <h3>Messege any Query</h3>
+                        <textarea cols="30" rows="15">Write a messege...</textarea><br/>
+                        <button>Submit</button>
+                    </td>
+                    <td width="33%">
+                        <h3>Quick Contact</h3>
+                        <p><b>For Dhaka Division:</b></p>
+                        Hotline: +8801777904554<br/>
+                        (from 9:30am - 6:00 pm)<br/>
+
+                        <h3>Quick Contact</h3>
+                        <p><b>For Chittagong Division:</b></p>
+                        Hotline: +8801777904554<br/>
+                        (from 9:30am - 6:00 pm)<br/>
+                    </td>
+                    <td width="33%">
+                        <h3>Location</h3>
+                        <p><b>For Dhaka Division:</b>BASIS Institute of Technology & Management (BITM)BDBL Bhaban (3rd Floor - East), 12 Kawran Bazar, Dhaka -1215.</p>
+                        <p><b>For Chittagong Division:</b>
+                            BASIS Institute of Technology & Management (BITM)
+                            R.I Tower (4th Floor), 23/A M M Ali Road, Golpahar Circle (Beside
+                            Evergreen Health Center), Mehedibag, Chittagong.</p>
+                    </td>
+                </tr>
+                <!--Footer part end-->
+                <!--copyright start-->
+                <tr>
+                    <td width="33%">
+                        <p>Copyright© 2022 BITM</p>
+                    </td>
+                    <td width="33%"></td>
+                    <td width="33%">
+                        <img src="images/basis_logo.png" width="150">
+                    </td>
+                </tr>
+                <!--copyright end-->
+            </form>
+        </table>
+    </body>
+</html>
